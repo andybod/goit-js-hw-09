@@ -22,6 +22,7 @@ function getSubmitForm(e) {
           `❌ Rejected promise ${position} in ${delay}ms`
         );
       });
+    console.log(delay);
     delay += Number(stepEl[0].value);
   }
   formEl.reset();
